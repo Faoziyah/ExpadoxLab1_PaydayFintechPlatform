@@ -1,0 +1,3 @@
+# helm/payday/values-staging.yaml
+image:  { tag: latest }
+api:    { replicas: 1 }
