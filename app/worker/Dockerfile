@@ -1,4 +1,4 @@
-FROM python:3.12-slim-bookworm
+FROM python:3.12-slim
 WORKDIR /app
 RUN apt-get update && apt-get upgrade -y && apt-get install -y zlib1g && \
     apt-get clean && rm -rf /var/lib/apt/lists/* && \
