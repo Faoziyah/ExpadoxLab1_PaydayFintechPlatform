@@ -37,9 +37,9 @@ module "eks" {
   cluster_endpoint_public_access = true
   eks_managed_node_groups = {
     default = {
-      desired_size   = 2
-      min_size       = 1
-      max_size       = 5
+      desired_size   = 0
+      min_size       = 0
+      max_size       = 0
       instance_types = ["t3.small"]
     }
   }
